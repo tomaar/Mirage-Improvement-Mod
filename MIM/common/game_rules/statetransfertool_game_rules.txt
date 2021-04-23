@@ -1,0 +1,122 @@
+gamer_gamer_country = {
+	name = "Select Country"
+	group = "OWNER"
+	icon = "GFX_volunteers"
+	default = { 
+	name = DIS
+	text = "Not enabled"
+	desc = ""
+	}
+	option = {
+		name = GER
+		text = "Germany"
+		desc = "Germany"
+	}
+	
+	option = {
+		name = ITA
+		text = "Italy"
+		desc = "Italy"
+	}
+	option = {
+		name = ROM
+		text = "Romania"
+		desc = "Romania"
+	}
+	option = {
+		name = HUN
+		text = "Hungary"
+		desc = "Hungary"
+	}
+	option = {
+		name = BUL
+		text = "Bulgaria"
+	    desc = "Bulgaria"
+	}
+	option = {
+		name = ENG
+		text = "United Kingdom"
+		desc =  "United Kingdom"
+	}
+	option = {
+		name = USA
+		text = "USA"
+		desc = "USA"
+	}
+	option = {
+		name = CAN
+		text = "Canada"
+		desc =  "Canada"
+	}
+	option = {
+		name = SAF
+		text = "South Africa"
+		desc =  "SAF"
+	}
+	option = {
+		name = RAJ
+		text = "British Raj"
+		desc =  "Raj"
+	}
+	option = {
+		name = AST
+		text = "Australia"
+		desc = "AST"
+	}
+	option = {
+		name = NZL
+		text = "New Zealand"
+        desc = "AST"	
+		}
+	option = {
+		name = JAP
+		text = "Japan"
+		desc = "Japan"
+	}
+	option = {
+		name = MAN
+		text = "Manchukuo"
+		desc = "Manchukuo"
+	}
+	option = {
+		name = SIA
+		text = "Siam"
+		desc = "Siam"
+	}
+	option = {
+		name = SOV
+		text = "Soviet Union"
+		desc = "Russia"
+	}
+	option = {
+		name = FRA
+		text = "France"
+		desc = "France"
+	}
+	option = {
+		name = BRA
+		text = "Brazil"
+		desc = "Brazil"
+	}
+		option = {
+		name = MEX
+		text = "Mexico"
+		desc = "Mexico"
+	}
+	option = {
+		name = IRE
+		text = "Ireland"
+		desc = "Ireland"
+	}
+	option = {
+		name = SPR
+		text = "Spain"
+		desc = "Spain"
+	}
+		option = {
+		name = NOR
+		text = "Norway"
+		desc = "Norway"
+	}
+	
+}

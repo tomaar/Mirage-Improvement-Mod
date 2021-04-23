@@ -1,0 +1,77 @@
+###########################
+#free copypaste for gdu boomers
+
+add_namespace = hosthelp
+
+country_event = {   
+	id = hosthelp.1
+	title = hosthelp.1.t
+	desc = hosthelp.1.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+
+    option = {
+		name =  hosthelp.1.a	
+	}
+}
+
+country_event = {   
+	id = hosthelp.2
+	title = hosthelp.2.t
+	desc = hosthelp.2.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+
+    option = {
+		name =  hosthelp.2.a	
+	}
+}
+
+country_event = {   
+	id = hosthelp.3
+	title = hosthelp.3.t
+	desc = hosthelp.3.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+	hidden = yes
+
+    option = {
+		name =  hosthelp.3.a
+		ROOT = {
+			country_event = {
+				id = hosthelp.4
+			}
+		}
+	}
+}
+
+country_event = {   
+	id = hosthelp.4
+	title = hosthelp.4.t
+	desc = hosthelp.4.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+	hidden = yes
+
+    option = {
+		name =  hosthelp.4.a
+		FROM = {
+			set_country_flag = host_falsepositive
+			set_country_flag = host_falsepositive_2
+			clr_country_flag = host_player
+			clr_country_flag = host_player_2
+		}
+	}
+}

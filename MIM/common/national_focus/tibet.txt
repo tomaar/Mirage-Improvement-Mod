@@ -1,0 +1,33 @@
+focus_tree = {
+	id = tibet_focus
+		country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE
+			has_dlc = "La Resistance"
+		}
+	}
+	
+		focus = {
+		id = TIB_anti_meme
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 29
+		
+
+		available_if_capitulated = yes
+	
+		completion_reward = {
+	
+		SPR = { country_event = { id = lar_spain.2 } }
+		
+		
+		}
+		
+        }		
+	
+}

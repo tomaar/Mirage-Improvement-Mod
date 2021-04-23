@@ -1,0 +1,32 @@
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=1
+	resources={
+	   oil=48 # was: 41
+	}
+	
+	state_category = town
+	history=
+	{
+		owner = GUA
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+			12865 = {
+				naval_base = 1
+			}
+			8017 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12865 3 
+		}
+
+	}
+	provinces={
+		2031 8017 12865
+	}
+}
