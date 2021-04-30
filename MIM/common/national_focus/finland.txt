@@ -152,7 +152,10 @@ focus = {
 		available = {
 			has_war = no
 			NOT = {owns_state=146}
-			GER = {has_completed_focus = GER_anti_comitern_pact }
+			OR = {
+				GER = { has_war_with = SOV }
+				date > 1942.1.1
+			}
 		}
 		
 		bypass = {
@@ -195,7 +198,10 @@ focus = {
 		available = {
 			has_war = no
 			owns_state=146
-			GER = {has_completed_focus = GER_anti_comitern_pact }
+			OR = {
+				GER = { has_war_with = SOV }
+				date > 1942.1.1
+			}
 		}
 
 		cancel_if_invalid = yes
