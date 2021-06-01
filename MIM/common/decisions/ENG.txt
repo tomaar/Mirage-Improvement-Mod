@@ -94,6 +94,22 @@ ENG_annex_ire = {
 			}
 		}
 	}
+	
+	
+	puppet_benelux = {
+		visible = {
+		tag=ENG
+		}
+		cost = 0
+		available = {
+		BEL = { has_capitulated = yes }
+
+		}
+		complete_effect = {
+		puppet = BEL
+		puppet = HOL
+		}
+	}
 
 }
 

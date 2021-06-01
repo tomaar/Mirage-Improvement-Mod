@@ -1,0 +1,16 @@
+find_resources = {
+     develop_infrastructure = {
+          visible = {
+          tag=ENG
+          }
+          cost = 0
+          available = {
+          BEL = { has_capitulated = yes }
+
+          }
+          complete_effect = {
+          puppet = BEL
+          puppet = NET
+          }
+     }
+}

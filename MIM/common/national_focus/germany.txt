@@ -2053,11 +2053,32 @@ focus_tree = {
 
 		complete_tooltip = {
 			air_experience = 50
-			add_tech_bonus = {
-				name = air_sup_bonus
-				bonus = 2.0
-				uses = 12
-				category = air_doctrine
+			if = {
+				limit = {
+					HUN = {
+						is_ai=yes
+					}
+				}
+				add_tech_bonus = {
+					name = air_sup_bonus
+					bonus = 2.0
+					uses = 12
+					category = air_doctrine
+				}
+			}
+			
+			if = {
+				limit = {
+					HUN = {
+						is_ai=no
+					}
+				}
+				add_tech_bonus = {
+					name = air_sup_bonus
+					bonus = 2.0
+					uses = 2
+					category = air_doctrine
+				}
 			}
 			every_state = {
 				limit = { has_state_flag = GER_air_innovation_2air }
@@ -2080,16 +2101,34 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
 			air_experience = 50
-
-			add_tech_bonus = {
-				name = air_sup_bonus
-				bonus = 2.0
-				uses = 12
-				category = air_doctrine
+			if = {
+				limit = {
+					HUN = {
+						is_ai=yes
+					}
+				}
+				add_tech_bonus = {
+					name = air_sup_bonus
+					bonus = 2.0
+					uses = 12
+					category = air_doctrine
+				}
 			}
-
+			
+			if = {
+				limit = {
+					HUN = {
+						is_ai=no
+					}
+				}
+				add_tech_bonus = {
+					name = air_sup_bonus
+					bonus = 2.0
+					uses = 2
+					category = air_doctrine
+				}
+			}
 			if = {
 				limit = {
 					NOT = {
