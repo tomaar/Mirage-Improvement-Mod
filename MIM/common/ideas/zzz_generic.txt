@@ -1051,6 +1051,10 @@ equipment_bonus = {
 				min_export = 0.3
 				enemy_justify_war_goal_time = 100.0
 				ai_get_ally_desire_factor = -100
+				fascism_acceptance = -1000
+				communism_acceptance = -1000
+				democratic_acceptance = -1000
+				neutrality_acceptance = -1000
 			}
 		}
 		

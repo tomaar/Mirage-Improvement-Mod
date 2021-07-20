@@ -681,6 +681,214 @@ technologies = {
 		}
 	}	
 	
+	shocktroops = {
+
+		enable_subunits = {
+			shocktroop
+		}
+
+		path = {
+			leads_to_tech = shocktroops2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1936 }
+		}
+		
+		categories = {
+			shocktrooper_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	shocktroops2 = {
+
+		shocktroop = {
+			max_organisation = 5
+			soft_attack = 0.05
+			fort = {
+				attack = 0.1
+			}
+		}
+		path = {
+			leads_to_tech = shocktroops3
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1939 }
+		}
+		
+		categories = {
+			shocktrooper_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	shocktroops3 = {
+
+		shocktroop = {
+			max_organisation = 5
+			soft_attack = 0.05
+			fort = {
+				attack = 0.15
+			}
+		}
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1943 }
+		}
+		
+		categories = {
+			shocktrooper_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	sas_t = {
+
+		enable_subunits = {
+			sas
+		}
+
+		path = {
+			leads_to_tech = sas_t2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1936 }
+		}
+		
+		categories = {
+			sas_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	sas_t2 = {
+
+		sas = {
+			max_organisation = 30	
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.3
+			forest = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.1
+			}
+			mountain = {
+				attack = 0.15
+			}
+			jungle = {
+				attack = 0.1
+			}
+			marsh = {
+				attack = 0.15
+			}
+			river = {
+				attack = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		path = {
+			leads_to_tech = sas_t3
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1939 }
+		}
+		
+		categories = {
+			sas_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	sas_t3 = {
+
+		sas = {
+			max_organisation = 30
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.4
+			forest = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.1
+			}
+			mountain = {
+				attack = 0.15
+			}
+			jungle = {
+				attack = 0.1
+			}
+			marsh = {
+				attack = 0.15
+			}
+			river = {
+				attack = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+			}
+		}
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1943 }
+		}
+		
+		categories = {
+			sas_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
 	tech_mountaineers = {
 
 		enable_subunits = {
@@ -1143,6 +1351,14 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		sas = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1231,6 +1447,14 @@ technologies = {
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		sas = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1331,6 +1555,14 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		sas = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1412,6 +1644,14 @@ technologies = {
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		sas = {
 			defense = 0.03
 			breakthrough = 0.03
 		}

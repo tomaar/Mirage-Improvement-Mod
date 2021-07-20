@@ -16,6 +16,7 @@ add_ideas = {
 }
 set_stability = 0.9
 set_war_support = 0.1
+give_military_access = SOV
 
 set_technology = {
 	infantry_weapons = 1

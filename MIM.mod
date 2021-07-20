@@ -5,8 +5,8 @@ tags={
 	"Balance"
 	"Your Mother"
 }
-name="Mirage Improvement Mod"
+name="Cope(with my dick in your mum)s"
 picture="thumbnail.png"
-supported_version="1.10.4"
+supported_version="1.10.*"
 path="mod/MIM"
 remote_file_id="2259117322"

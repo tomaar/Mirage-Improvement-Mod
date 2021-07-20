@@ -2252,3 +2252,28 @@ country_event = {
 		clr_global_flag = SOV_became_russia
 	}
 }
+
+
+country_event = {
+	id = soviet.65
+	title = "Montreux Convention Regarding the Regime of the Straits"
+	desc = "The Montreux Convention has concluded the control over the Black Sea straits shall be returned to Turkey"
+	trigger = {
+		tag = SOV
+		date > 1936.7.20
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "Withdraw from the Bosphorus"
+		ai_chance = {
+			base = 1
+		}
+		diplomatic_relation = {
+			country = SWE
+			relation = military_access
+			active = no
+		}
+	}
+}

@@ -3,8 +3,11 @@ state= {
 	name="STATE_315"
 	manpower = 1
 	resources={
-		steel=3 # was: 4
-		chromium=101 # was: 90
+		steel=10
+		chromium=100
+		oil=180
+		tungsten=100
+		
 	}
 	
 	state_category = town
@@ -30,6 +33,6 @@ state= {
 
 	}
 	provinces={
-		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347
+		7622
 	}
 }
